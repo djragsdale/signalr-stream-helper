@@ -1,0 +1,23 @@
+{
+  "name": "signalr-stream-helper",
+  "version": "1.0.0",
+  "description": "Create a SignalR stream from input",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djragsdale/signalr-stream-helper.git"
+  },
+  "keywords": [
+    "signalr",
+    "signal-r"
+  ],
+  "author": "djragsdale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djragsdale/signalr-stream-helper/issues"
+  },
+  "homepage": "https://github.com/djragsdale/signalr-stream-helper#readme"
+}
