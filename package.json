@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Create a SignalR stream from input",
   "main": "lib/index.js",
+  "bin": {
+    "signalr-stream-helper": "bin/signalr-stream-helper.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/djragsdale/signalr-stream-helper/issues"
   },
-  "homepage": "https://github.com/djragsdale/signalr-stream-helper#readme"
+  "homepage": "https://github.com/djragsdale/signalr-stream-helper#readme",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1",
+    "signalrjs": "^0.2.2"
+  }
 }

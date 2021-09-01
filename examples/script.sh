@@ -1,0 +1,1 @@
+node ../bin/signalr-stream-helper.js --port 8080 --interval 2000 --message "{ \"v\": \"{0} - syn: {1}, def: {3}, {2} total definitions\" }" data.csv
